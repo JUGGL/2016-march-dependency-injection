@@ -1,0 +1,32 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="helloBean" class="us.juggl.twentysixteen.march.HelloSpring">
+		<property name="name" value="Deven Phillips" />
+	</bean>
+
+	<bean id="liquibase" class="liquibase.integration.spring.SpringLiquibase">
+		<property name="dataSource" ref="dbPool" />
+		<property name="changeLog" value="classpath:db-changelog.xml" />
+
+		<!--
+        contexts specifies the runtime contexts to use.
+        -->
+		<property name="contexts" value="test, production" />
+	</bean>
+
+	<bean id="dbPool" class="org.apache.commons.dbcp2.BasicDataSource">
+		<property name="driverClassName" value="org.hsqldb.jdbc.JDBCDriver" />
+		<property name="url" value="jdbc:hsqldb:mem:mydb" />
+		<property name="username" value="SA" />
+		<property name="password" value="" />
+		<property name="initialSize" value="5" />
+		<property name="maxTotal" value="10" />
+	</bean>
+
+	<bean id="customerDao" class="us.juggl.twentysixteen.march.dao.CustomerDAO">
+		<property name="dataSource" ref="dbPool" />
+	</bean>
+</beans>
