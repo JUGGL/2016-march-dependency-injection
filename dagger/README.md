@@ -10,4 +10,4 @@ a few extra steps to wire up the dependencies:
 
 1. Create a class annotated with `@Module` which `@Provides` dependencies
 1. Create an interface annotated with `@Component` which defines the `@Module` to be used and the dependency which it provides
-1. If you are using Java 6/7, you need the file src/main/resources/META-INF/services/javax.annotation.processing.Processor to tell the compiler which annotation processors to use
+1. If you are using Java 6/7, you need the file `src/main/resources/META-INF/services/javax.annotation.processing.Processor` to tell the compiler which annotation processors to use
