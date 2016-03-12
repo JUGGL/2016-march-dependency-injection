@@ -5,8 +5,19 @@
   <artifactId>ioc</artifactId>
   <packaging>pom</packaging>
   <version>1.0</version>
-  <name>ioc</name>
-  <url>http://maven.apache.org</url>
+  <name>March 2016 - Java Users Group: Dependency Injection</name>
+  <url>https://github.com/JUGGL/2016-march-dependency-injection</url>
+  <developers>
+    <developer>
+      <name>Deven Phillips</name>
+      <organization>Java Users Group of Greater Louisville</organization>
+      <organizationUrl>http://juggl.us</organizationUrl>
+      <roles>
+        <role>Maintainer</role>
+      </roles>
+      <url>https://github.com/InfoSec812</url>
+    </developer>
+  </developers>
   <modules>
     <module>spring</module>
     <module>guice</module>
