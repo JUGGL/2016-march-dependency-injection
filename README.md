@@ -30,3 +30,8 @@ mvn test
 The database used in each of the submodules is HSQLDB and uses
 [Liquibase](http://www.liquibase.org/) to initialize the database 
 schema.
+
+## The Java User's Group of Greater Louisville (JUGGL)
+* On Meetup: http://www.meetup.com/JUGGLou/events/225215077/
+* On the web: http://juggl.us/
+* On GitHub: https://github.com/JUGGL
