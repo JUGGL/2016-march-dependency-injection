@@ -27,6 +27,6 @@
 	</bean>
 
 	<bean id="customerDao" class="us.juggl.twentysixteen.march.dao.CustomerDAO">
-		<property name="dataSource" ref="dbPool" />
+		<constructor-arg ref="dbPool" />
 	</bean>
 </beans>

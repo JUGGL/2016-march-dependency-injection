@@ -20,6 +20,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>us.juggl.twentysixteen.march</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>javax.enterprise</groupId>
             <artifactId>cdi-api</artifactId>
             <version>1.2</version>
