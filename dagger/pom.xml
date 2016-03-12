@@ -9,7 +9,7 @@
   </parent>
   <artifactId>dagger</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>dagger</name>
   <url>https://github.com/JUGGL/2016-march-dependency-injection</url>
   <developers>
@@ -30,7 +30,7 @@
     <dependency>
       <groupId>us.juggl.twentysixteen.march</groupId>
       <artifactId>common</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.dagger</groupId>
