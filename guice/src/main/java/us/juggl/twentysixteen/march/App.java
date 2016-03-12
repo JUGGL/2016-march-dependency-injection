@@ -12,8 +12,10 @@ import us.juggl.twentysixteen.march.model.Customer;
  */
 public class App {
     public static void main(String... args) {
+        // Create an injector using the configuration from the JUGGLModule class
         Injector injector = Guice.createInjector(new JUGGLModule());
 
+        // Create an instance of the CustomerDAO class using Guice for DI
         CustomerDAO dao = injector.getInstance(CustomerDAO.class);
 
         Customer newCustomer = new Customer()

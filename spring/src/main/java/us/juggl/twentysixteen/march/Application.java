@@ -11,10 +11,15 @@ import us.juggl.twentysixteen.march.model.Customer;
 public class Application {
 
     public static void main(String... args) {
+
+        // Initialize the Spring module descriptors from the XML Config
         ApplicationContext ctx = new ClassPathXmlApplicationContext("Spring-Module.xml");
+
+        // Create an instance of the HelloSpring class using Spring IoC
         HelloSpring obj = (HelloSpring) ctx.getBean("helloBean", HelloSpring.class);  // Ensure type safety!!!
         obj.printHello();
 
+        // Create an instance of the CustomerDAO class using Spring IoC
         CustomerDAO dao = (CustomerDAO) ctx.getBean("customerDao", CustomerDAO.class);
         Customer newCustomer = new Customer()
                                         .name("Acme Widgets, LLC")

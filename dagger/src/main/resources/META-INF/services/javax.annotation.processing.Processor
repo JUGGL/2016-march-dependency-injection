@@ -1,0 +1,2 @@
+dagger.internal.codegen.ComponentProcessor
+lombok.launch.AnnotationProcessorHider$AnnotationProcessor
