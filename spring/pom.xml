@@ -19,6 +19,17 @@
       <version>2.5.6</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.hsqldb</groupId>
+      <artifactId>hsqldb</artifactId>
+      <version>2.3.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-dbcp2</artifactId>
+      <version>2.1.1</version>
+    </dependency>
+
     <!-- TEST DEPENDENCIES -->
     <dependency>
       <groupId>junit</groupId>
