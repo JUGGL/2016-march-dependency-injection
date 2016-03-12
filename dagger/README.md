@@ -1,8 +1,9 @@
 # Dagger Dependency Injection Example
 
 ## Reference Links
-http://google.github.io/dagger/users-guide
-http://code.tutsplus.com/tutorials/dependency-injection-with-dagger-2-on-android--cms-23345
+
+* http://google.github.io/dagger/users-guide
+* http://code.tutsplus.com/tutorials/dependency-injection-with-dagger-2-on-android--cms-23345
 
 ## Special considerations for Dagger 2
 Dagger 2 uses an annotation processor to handle DI, and thus we have
