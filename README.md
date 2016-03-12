@@ -1,5 +1,7 @@
 # Examples of Inversion of Control/Dependency Injection In Java
 
+[![Build Status](https://travis-ci.org/JUGGL/2016-march-dependency-injection.svg)](https://travis-ci.org/InfoSec812/2016-march-dependency-injection)
+
 There are slides and notes included in this project in LibreOffce format.
 
 ## Overview
