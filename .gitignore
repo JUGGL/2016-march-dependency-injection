@@ -60,6 +60,6 @@ crashlytics.properties
 crashlytics-build.properties
 
 ## Submodules
-*/target
-*/target/**
+**/target
+**/target/**
 

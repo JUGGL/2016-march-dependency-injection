@@ -12,6 +12,7 @@
     <module>guice</module>
     <module>cdi</module>
     <module>dagger</module>
+    <module>common</module>
   </modules>
   <dependencies>
 
