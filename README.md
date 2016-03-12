@@ -25,3 +25,8 @@ mvn compile
 ```
 mvn test
 ```
+
+## Database
+The database used in each of the submodules is HSQLDB and uses
+[Liquibase](http://www.liquibase.org/) to initialize the database 
+schema.
